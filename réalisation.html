@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Css/style.css">
+<link rel="icon" type="image/jpeg" href="Image/logo%20GRS.jpg">
+<title>Réalisations | GRS Tech-SUPPORT — Portfolio</title>
+<meta name="description" content="Découvrez les réalisations de GRS Tech-SUPPORT : design graphique, application Excel VBA, productions vidéo et plus encore.">
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <a href="index.html" class="logo-zone" aria-label="GRS Tech-SUPPORT — Accueil">
+      <img src="Image/logo%20GRS.jpg" alt="Logo de GRS Tech-SUPPORT">
+      <span class="logo-nom">GRS Tech-SUPPORT<span>SOLUTIONS TECHNOLOGIQUES</span></span>
+    </a>
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="index.html#services">Services</a>
+      <a href="réalisation.html">Réalisations</a>
+      <a href="index.html#a-propos">À propos</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a href="contact.html" class="btn btn-orange header-cta">Démarrer un projet</a>
+    <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="section-tag" style="justify-content:center">Portfolio</span>
+    <h1>Nos <span class="gras-orange">réalisations</span></h1>
+    <p>Design graphique, programmation, vidéo : explorez les travaux déjà livrés par l'équipe GRS Tech-SUPPORT.</p>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="container">
+    <div class="filtres" role="group" aria-label="Filtrer les réalisations par catégorie">
+      <button class="filtre actif" data-filtre="tous" aria-pressed="true">Tous</button>
+      <button class="filtre" data-filtre="programmation" aria-pressed="false">Programmation</button>
+      <button class="filtre" data-filtre="design" aria-pressed="false">Design</button>
+      <button class="filtre" data-filtre="video" aria-pressed="false">Vidéo</button>
+    </div>
+
+    <div class="galerie">
+      <article class="carte-real carte-video reveal" data-categorie="programmation">
+        <div class="apercu">
+          <span class="badge-cat">Programmation</span>
+          <video src="Vidéo/video%20application%20excel%20vba.mp4" preload="metadata" playsinline controls aria-label="Présentation vidéo de l’application de gestion Excel VBA réalisée par GRS Tech-SUPPORT"></video>
+          <div class="lecture" aria-hidden="true"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span></div>
+        </div>
+        <div class="contenu">
+          <h3>Application de gestion Excel VBA</h3>
+          <p>Une solution développée avec Excel et VBA transformant des opérations de gestion répétitives en un environnement structuré et automatisé.</p>
+        </div>
+      </article>
+      <article class="carte-real carte-video reveal" data-categorie="video">
+        <div class="apercu">
+          <span class="badge-cat">Vidéo</span>
+          <video src="Vidéo/videp1.mp4" preload="metadata" playsinline controls aria-label="Vidéo réalisée par GRS Tech-SUPPORT"></video>
+          <div class="lecture" aria-hidden="true"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span></div>
+        </div>
+        <div class="contenu">
+          <h3>Production vidéo — projet 1</h3>
+          <p>Un contenu vidéo monté et finalisé avec soin par l’équipe GRS Tech-SUPPORT.</p>
+        </div>
+      </article>
+      <article class="carte-real carte-video reveal" data-categorie="video">
+        <div class="apercu">
+          <span class="badge-cat">Vidéo</span>
+          <video src="Vidéo/video2.mp4" preload="metadata" playsinline controls aria-label="Vidéo réalisée par GRS Tech-SUPPORT"></video>
+          <div class="lecture" aria-hidden="true"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span></div>
+        </div>
+        <div class="contenu">
+          <h3>Production vidéo — projet 2</h3>
+          <p>Un contenu vidéo monté et finalisé avec soin par l’équipe GRS Tech-SUPPORT.</p>
+        </div>
+      </article>
+      <article class="carte-real carte-video reveal" data-categorie="video">
+        <div class="apercu">
+          <span class="badge-cat">Vidéo</span>
+          <video src="Vidéo/video3.mp4" preload="metadata" playsinline controls aria-label="Vidéo réalisée par GRS Tech-SUPPORT"></video>
+          <div class="lecture" aria-hidden="true"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span></div>
+        </div>
+        <div class="contenu">
+          <h3>Production vidéo — projet 3</h3>
+          <p>Un contenu vidéo monté et finalisé avec soin par l’équipe GRS Tech-SUPPORT.</p>
+        </div>
+      </article>
+      <article class="carte-real reveal" data-categorie="design">
+        <div class="apercu">
+          <span class="badge-cat">Design</span>
+          <a href="Image/Logo%20design%20GRS.jpg" data-lightbox data-titre="Conception du logo GRS — GRS Tech-SUPPORT">
+            <img src="Image/Logo%20design%20GRS.jpg" alt="Conception du logo GRS — réalisation de GRS Tech-SUPPORT" loading="lazy">
+          </a>
+        </div>
+        <div class="contenu">
+          <h3>Conception du logo GRS</h3>
+          <p>Travail d’identité visuelle : la conception du logo officiel de GRS Tech-SUPPORT.</p>
+          <button class="btn-voir" type="button">Voir en plein écran
+            <svg viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+          </button>
+        </div>
+      </article>
+      <article class="carte-real reveal" data-categorie="design">
+        <div class="apercu">
+          <span class="badge-cat">Design</span>
+          <a href="Image/Flyer1.jpg" data-lightbox data-titre="Création visuelle n°01 — GRS Tech-SUPPORT">
+            <img src="Image/Flyer1.jpg" alt="Création visuelle n°01 — réalisation de GRS Tech-SUPPORT" loading="lazy">
+          </a>
+        </div>
+        <div class="contenu">
+          <h3>Création visuelle n°01</h3>
+          <p>Support de communication graphique réalisé par GRS Tech-SUPPORT.</p>
+          <button class="btn-voir" type="button">Voir en plein écran
+            <svg viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+          </button>
+        </div>
+      </article>
+      <article class="carte-real reveal" data-categorie="design">
+        <div class="apercu">
+          <span class="badge-cat">Design</span>
+          <a href="Image/Flyer2.jpg" data-lightbox data-titre="Création visuelle n°02 — GRS Tech-SUPPORT">
+            <img src="Image/Flyer2.jpg" alt="Création visuelle n°02 — réalisation de GRS Tech-SUPPORT" loading="lazy">
+          </a>
+        </div>
+        <div class="contenu">
+          <h3>Création visuelle n°02</h3>
+          <p>Support de communication graphique réalisé par GRS Tech-SUPPORT.</p>
+          <button class="btn-voir" type="button">Voir en plein écran
+            <svg viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+          </button>
+        </div>
+      </article>
+      <article class="carte-real reveal" data-categorie="design">
+        <div class="apercu">
+          <span class="badge-cat">Design</span>
+          <a href="Image/Flyer3.jpg" data-lightbox data-titre="Création visuelle n°03 — GRS Tech-SUPPORT">
+            <img src="Image/Flyer3.jpg" alt="Création visuelle n°03 — réalisation de GRS Tech-SUPPORT" loading="lazy">
+          </a>
+        </div>
+        <div class="contenu">
+          <h3>Création visuelle n°03</h3>
+          <p>Support de communication graphique réalisé par GRS Tech-SUPPORT.</p>
+          <button class="btn-voir" type="button">Voir en plein écran
+            <svg viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+          </button>
+        </div>
+      </article>
+      <article class="carte-real reveal" data-categorie="design">
+        <div class="apercu">
+          <span class="badge-cat">Design</span>
+          <a href="Image/Flyer4.jpg" data-lightbox data-titre="Création visuelle n°04 — GRS Tech-SUPPORT">
+            <img src="Image/Flyer4.jpg" alt="Création visuelle n°04 — réalisation de GRS Tech-SUPPORT" loading="lazy">
+          </a>
+        </div>
+        <div class="contenu">
+          <h3>Création visuelle n°04</h3>
+          <p>Support de communication graphique réalisé par GRS Tech-SUPPORT.</p>
+          <button class="btn-voir" type="button">Voir en plein écran
+            <svg viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+          </button>
+        </div>
+      </article>
+      <article class="carte-real reveal" data-categorie="design">
+        <div class="apercu">
+          <span class="badge-cat">Design</span>
+          <a href="Image/Flyer5.jpg" data-lightbox data-titre="Création visuelle n°05 — GRS Tech-SUPPORT">
+            <img src="Image/Flyer5.jpg" alt="Création visuelle n°05 — réalisation de GRS Tech-SUPPORT" loading="lazy">
+          </a>
+        </div>
+        <div class="contenu">
+          <h3>Création visuelle n°05</h3>
+          <p>Support de communication graphique réalisé par GRS Tech-SUPPORT.</p>
+          <button class="btn-voir" type="button">Voir en plein écran
+            <svg viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+          </button>
+        </div>
+      </article>
+      <article class="carte-real reveal" data-categorie="design">
+        <div class="apercu">
+          <span class="badge-cat">Design</span>
+          <a href="Image/Flyer6.jpg" data-lightbox data-titre="Création visuelle n°06 — GRS Tech-SUPPORT">
+            <img src="Image/Flyer6.jpg" alt="Création visuelle n°06 — réalisation de GRS Tech-SUPPORT" loading="lazy">
+          </a>
+        </div>
+        <div class="contenu">
+          <h3>Création visuelle n°06</h3>
+          <p>Support de communication graphique réalisé par GRS Tech-SUPPORT.</p>
+          <button class="btn-voir" type="button">Voir en plein écran
+            <svg viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+          </button>
+        </div>
+      </article>
+      <article class="carte-real reveal" data-categorie="design">
+        <div class="apercu">
+          <span class="badge-cat">Design</span>
+          <a href="Image/Flyer7.jpg" data-lightbox data-titre="Création visuelle n°07 — GRS Tech-SUPPORT">
+            <img src="Image/Flyer7.jpg" alt="Création visuelle n°07 — réalisation de GRS Tech-SUPPORT" loading="lazy">
+          </a>
+        </div>
+        <div class="contenu">
+          <h3>Création visuelle n°07</h3>
+          <p>Support de communication graphique réalisé par GRS Tech-SUPPORT.</p>
+          <button class="btn-voir" type="button">Voir en plein écran
+            <svg viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+          </button>
+        </div>
+      </article>
+      <article class="carte-real reveal" data-categorie="design">
+        <div class="apercu">
+          <span class="badge-cat">Design</span>
+          <a href="Image/Flyer8.jpg" data-lightbox data-titre="Création visuelle n°08 — GRS Tech-SUPPORT">
+            <img src="Image/Flyer8.jpg" alt="Création visuelle n°08 — réalisation de GRS Tech-SUPPORT" loading="lazy">
+          </a>
+        </div>
+        <div class="contenu">
+          <h3>Création visuelle n°08</h3>
+          <p>Support de communication graphique réalisé par GRS Tech-SUPPORT.</p>
+          <button class="btn-voir" type="button">Voir en plein écran
+            <svg viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+          </button>
+        </div>
+      </article>
+      <article class="carte-real reveal" data-categorie="design">
+        <div class="apercu">
+          <span class="badge-cat">Design</span>
+          <a href="Image/Flyer9.jpg" data-lightbox data-titre="Création visuelle n°09 — GRS Tech-SUPPORT">
+            <img src="Image/Flyer9.jpg" alt="Création visuelle n°09 — réalisation de GRS Tech-SUPPORT" loading="lazy">
+          </a>
+        </div>
+        <div class="contenu">
+          <h3>Création visuelle n°09</h3>
+          <p>Support de communication graphique réalisé par GRS Tech-SUPPORT.</p>
+          <button class="btn-voir" type="button">Voir en plein écran
+            <svg viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+          </button>
+        </div>
+      </article>
+      <article class="carte-real reveal" data-categorie="design">
+        <div class="apercu">
+          <span class="badge-cat">Design</span>
+          <a href="Image/Flyer10.jpg" data-lightbox data-titre="Création visuelle n°10 — GRS Tech-SUPPORT">
+            <img src="Image/Flyer10.jpg" alt="Création visuelle n°10 — réalisation de GRS Tech-SUPPORT" loading="lazy">
+          </a>
+        </div>
+        <div class="contenu">
+          <h3>Création visuelle n°10</h3>
+          <p>Support de communication graphique réalisé par GRS Tech-SUPPORT.</p>
+          <button class="btn-voir" type="button">Voir en plein écran
+            <svg viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+          </button>
+        </div>
+      </article>
+      <article class="carte-real reveal" data-categorie="design">
+        <div class="apercu">
+          <span class="badge-cat">Design</span>
+          <a href="Image/Flyer11.jpg" data-lightbox data-titre="Création visuelle n°11 — GRS Tech-SUPPORT">
+            <img src="Image/Flyer11.jpg" alt="Création visuelle n°11 — réalisation de GRS Tech-SUPPORT" loading="lazy">
+          </a>
+        </div>
+        <div class="contenu">
+          <h3>Création visuelle n°11</h3>
+          <p>Support de communication graphique réalisé par GRS Tech-SUPPORT.</p>
+          <button class="btn-voir" type="button">Voir en plein écran
+            <svg viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+          </button>
+        </div>
+      </article>
+      <article class="carte-real reveal" data-categorie="design">
+        <div class="apercu">
+          <span class="badge-cat">Design</span>
+          <a href="Image/Flyer12.jpg" data-lightbox data-titre="Création visuelle n°12 — GRS Tech-SUPPORT">
+            <img src="Image/Flyer12.jpg" alt="Création visuelle n°12 — réalisation de GRS Tech-SUPPORT" loading="lazy">
+          </a>
+        </div>
+        <div class="contenu">
+          <h3>Création visuelle n°12</h3>
+          <p>Support de communication graphique réalisé par GRS Tech-SUPPORT.</p>
+          <button class="btn-voir" type="button">Voir en plein écran
+            <svg viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+          </button>
+        </div>
+      </article>
+      <article class="carte-real reveal" data-categorie="design">
+        <div class="apercu">
+          <span class="badge-cat">Design</span>
+          <a href="Image/Flyer13.jpg" data-lightbox data-titre="Création visuelle n°13 — GRS Tech-SUPPORT">
+            <img src="Image/Flyer13.jpg" alt="Création visuelle n°13 — réalisation de GRS Tech-SUPPORT" loading="lazy">
+          </a>
+        </div>
+        <div class="contenu">
+          <h3>Création visuelle n°13</h3>
+          <p>Support de communication graphique réalisé par GRS Tech-SUPPORT.</p>
+          <button class="btn-voir" type="button">Voir en plein écran
+            <svg viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+          </button>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container">
+    <h2 class="reveal">Un projet en tête ? <span class="gras-orange">Confiez-le-nous.</span></h2>
+    <p class="reveal">Chaque réalisation commence par une simple conversation.</p>
+    <a href="contact.html" class="btn btn-orange reveal">Démarrer un projet</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-grille">
+    <div>
+      <a href="index.html" class="logo-zone">
+        <img src="Image/logo%20GRS.jpg" alt="Logo de GRS Tech-SUPPORT">
+        <span class="logo-nom">GRS Tech-SUPPORT<span>SOLUTIONS TECHNOLOGIQUES</span></span>
+      </a>
+      <p class="footer-slogan">« La satisfaction du client, c'est notre priorité. »</p>
+      <p class="footer-desc">Entreprise technologique née à Hinche, Haïti — au service des particuliers, des entreprises et des institutions.</p>
+    </div>
+    <div>
+      <h4>Navigation</h4>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="réalisation.html">Réalisations</a></li>
+        <li><a href="index.html#a-propos">À propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Services</h4>
+      <ul>
+        <li><a href="index.html#services">Dépannage informatique</a></li>
+        <li><a href="index.html#services">Programmation</a></li>
+        <li><a href="index.html#services">Formations</a></li>
+        <li><a href="index.html#services">Réseaux</a></li>
+        <li><a href="index.html#services">Montage vidéo</a></li>
+        <li><a href="index.html#services">Caméras de surveillance</a></li>
+        <li><a href="index.html#services">Design graphique</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul class="footer-coord">
+        <li><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Hinche, Haïti</span></li>
+        <li><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg><a href="tel:+50941720748">41 72 0748</a></li>
+        <li><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg><a href="mailto:grstechsupport15@gmail.com">grstechsupport15@gmail.com</a></li>
+        <li><svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg><a href="https://www.facebook.com/GRSTechSUPPORT" target="_blank" rel="noopener">Facebook : GRS Tech-SUPPORT</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bar">© 2026 <b>GRS Tech-SUPPORT</b> — Hinche, Haïti. Tous droits réservés.</div>
+</footer>
+<button class="retour-haut" aria-label="Retour en haut de page">↑</button>
+<script src="Js/script.js"></script>
+
+<!-- Lightbox -->
+<div class="lightbox" role="dialog" aria-modal="true" aria-label="Image agrandie">
+  <button class="lightbox-close" aria-label="Fermer l'aperçu">×</button>
+  <img src="" alt="">
+  <p class="lightbox-legende"></p>
+</div>
+
+</body>
+</html>

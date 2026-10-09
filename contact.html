@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Css/style.css">
+<link rel="icon" type="image/jpeg" href="Image/logo%20GRS.jpg">
+<title>Contact | GRS Tech-SUPPORT — Hinche, Haïti</title>
+<meta name="description" content="Contactez GRS Tech-SUPPORT à Hinche, Haïti : dépannage, programmation, formations, réseaux, vidéo, vidéosurveillance et design graphique.">
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <a href="index.html" class="logo-zone" aria-label="GRS Tech-SUPPORT — Accueil">
+      <img src="Image/logo%20GRS.jpg" alt="Logo de GRS Tech-SUPPORT">
+      <span class="logo-nom">GRS Tech-SUPPORT<span>SOLUTIONS TECHNOLOGIQUES</span></span>
+    </a>
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="index.html#services">Services</a>
+      <a href="réalisation.html">Réalisations</a>
+      <a href="index.html#a-propos">À propos</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a href="contact.html" class="btn btn-orange header-cta">Démarrer un projet</a>
+    <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="contact-section">
+  <div class="container">
+    <span class="section-tag">Contact</span>
+    <h1 class="section-titre" style="font-size:clamp(2rem,4.6vw,3rem)">Parlons de votre <span class="gras-orange">projet</span></h1>
+    <p class="section-texte">Une question, un besoin, une idée ? Écrivez-nous ou appelez-nous — nous vous répondrons avec plaisir.</p>
+
+    <div class="contact-grille">
+      <!-- Coordonnées -->
+      <div class="carte-infos reveal">
+        <h2>Coordonnées</h2>
+        <p>GRS Tech-SUPPORT — la satisfaction du client, c'est notre priorité.</p>
+        <div class="info-ligne">
+          <div class="info-icone"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div><small>Adresse</small><span class="val">Hinche, Haïti</span></div>
+        </div>
+        <div class="info-ligne">
+          <div class="info-icone"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+          <div><small>Téléphone</small><a href="tel:+50941720748">41 72 0748</a></div>
+        </div>
+        <div class="info-ligne">
+          <div class="info-icone"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg></div>
+          <div><small>Email</small><a href="mailto:grstechsupport15@gmail.com">grstechsupport15@gmail.com</a></div>
+        </div>
+        <div class="info-ligne">
+          <div class="info-icone"><svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></div>
+          <div><small>Facebook</small><a href="https://www.facebook.com/GRSTechSUPPORT" target="_blank" rel="noopener">GRS Tech-SUPPORT</a></div>
+        </div>
+      </div>
+
+      <!-- Formulaire de contact -->
+      <form class="formulaire reveal" id="form-contact"
+            action="https://formsubmit.co/ajax/grstechsupport15@gmail.com"
+            method="POST" novalidate data-form-endpoint="https://formsubmit.co/ajax/grstechsupport15@gmail.com">
+        <h2>Envoyez-nous votre demande</h2>
+
+        <!-- Paramètres d'envoi -->
+        <input type="hidden" name="_subject" value="Nouvelle demande — GRS Tech-SUPPORT">
+        <input type="hidden" name="_captcha" value="true">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_url" id="form-url" value="">
+        <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true"
+               class="champ-cache" value="">
+
+        <div class="form-2col">
+          <div class="champ">
+            <label for="nom">Nom complet <span aria-hidden="true">*</span></label>
+            <input type="text" id="nom" name="nom" required autocomplete="name"
+                   placeholder="Votre nom" minlength="2" maxlength="100"
+                   aria-describedby="erreur-nom">
+            <small class="erreur-champ" id="erreur-nom"></small>
+          </div>
+
+          <div class="champ">
+            <label for="email">Email <span aria-hidden="true">*</span></label>
+            <input type="email" id="email" name="email" required autocomplete="email"
+                   placeholder="vous@exemple.com" maxlength="160"
+                   aria-describedby="erreur-email">
+            <small class="erreur-champ" id="erreur-email"></small>
+          </div>
+        </div>
+
+        <div class="form-2col">
+          <div class="champ">
+            <label for="telephone">Téléphone</label>
+            <input type="tel" id="telephone" name="telephone" autocomplete="tel"
+                   placeholder="41 00 0000" maxlength="30" aria-describedby="erreur-telephone">
+            <small class="erreur-champ" id="erreur-telephone"></small>
+          </div>
+
+          <div class="champ">
+            <label for="service">Service recherché <span aria-hidden="true">*</span></label>
+            <select id="service" name="service" required aria-describedby="erreur-service">
+              <option value="" disabled selected>Choisir un service</option>
+              <option value="Dépannage">Dépannage</option>
+              <option value="Programmation">Programmation</option>
+              <option value="Formation">Formation</option>
+              <option value="Réseau">Réseau</option>
+              <option value="Montage vidéo">Montage vidéo</option>
+              <option value="Caméras de surveillance">Caméras de surveillance</option>
+              <option value="Design graphique">Design graphique</option>
+              <option value="Autre">Autre</option>
+            </select>
+            <small class="erreur-champ" id="erreur-service"></small>
+          </div>
+        </div>
+
+        <div class="champ">
+          <label for="message">Votre message <span aria-hidden="true">*</span></label>
+          <textarea id="message" name="message" required
+                    placeholder="Décrivez votre projet ou votre besoin…"
+                    minlength="10" maxlength="3000"
+                    aria-describedby="erreur-message"></textarea>
+          <small class="erreur-champ" id="erreur-message"></small>
+          <div class="compteur-message"><span id="message-count">0</span>/3000 caractères</div>
+        </div>
+
+        <button type="submit" class="btn btn-orange btn-envoi" id="form-submit">
+          <span class="texte-bouton">Envoyer ma demande</span>
+          <span class="spinner" aria-hidden="true"></span>
+        </button>
+
+        <p class="note-form">
+          Les champs marqués d'un <strong>*</strong> sont obligatoires.
+          Vos informations sont utilisées uniquement pour traiter votre demande.
+        </p>
+
+        <div id="form-status" class="form-status" role="status" aria-live="polite" hidden></div>
+
+        <p id="form-confirmation" class="form-status succes" hidden>
+          ✓ Votre demande a été envoyée avec succès. GRS Tech-SUPPORT vous répondra prochainement.
+        </p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-grille">
+    <div>
+      <a href="index.html" class="logo-zone">
+        <img src="Image/logo%20GRS.jpg" alt="Logo de GRS Tech-SUPPORT">
+        <span class="logo-nom">GRS Tech-SUPPORT<span>SOLUTIONS TECHNOLOGIQUES</span></span>
+      </a>
+      <p class="footer-slogan">« La satisfaction du client, c'est notre priorité. »</p>
+      <p class="footer-desc">Entreprise technologique née à Hinche, Haïti — au service des particuliers, des entreprises et des institutions.</p>
+    </div>
+    <div>
+      <h4>Navigation</h4>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="réalisation.html">Réalisations</a></li>
+        <li><a href="index.html#a-propos">À propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Services</h4>
+      <ul>
+        <li><a href="index.html#services">Dépannage informatique</a></li>
+        <li><a href="index.html#services">Programmation</a></li>
+        <li><a href="index.html#services">Formations</a></li>
+        <li><a href="index.html#services">Réseaux</a></li>
+        <li><a href="index.html#services">Montage vidéo</a></li>
+        <li><a href="index.html#services">Caméras de surveillance</a></li>
+        <li><a href="index.html#services">Design graphique</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul class="footer-coord">
+        <li><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Hinche, Haïti</span></li>
+        <li><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg><a href="tel:+50941720748">41 72 0748</a></li>
+        <li><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg><a href="mailto:grstechsupport15@gmail.com">grstechsupport15@gmail.com</a></li>
+        <li><svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg><a href="https://www.facebook.com/GRSTechSUPPORT" target="_blank" rel="noopener">Facebook : GRS Tech-SUPPORT</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bar">© 2026 <b>GRS Tech-SUPPORT</b> — Hinche, Haïti. Tous droits réservés.</div>
+</footer>
+<button class="retour-haut" aria-label="Retour en haut de page">↑</button>
+<script src="Js/script.js"></script>
+</body>
+</html>
